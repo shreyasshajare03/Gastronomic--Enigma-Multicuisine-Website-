@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+header {
+    background-color: #e46060;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.hero {
+   
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    text-align: center;
+    color: white;
+}
+
+
+.about,
+.explore,
+.community {
+    padding: 20px;
+}
+
+.explore ul {
+    list-style: none;
+    padding: 0;
+}
+
+.explore li {
+    margin-bottom: 10px;
+}
+
+.explore a {
+    text-decoration: none;
+    color:firebrick ;
+   
+}
+
+footer {
+    background-color:  #444;
+    padding: 20px;
+    text-align: center;
+}
+
+.explore a:hover
+{
+    color: #444;
+}
+
+img{
+    margin-top: 2px;
+    height: 100%;
+    width: 50%;
+ 
+}
+.oneline
+{
+    display: block;
+}
+
+#WhatsApp
+{
+    background-color: #25D366;
+    color: white;
+}
+
+#Twitter
+{
+    background-color: #1DA1F2;
+}
+
+#Insta
+{
+    background-color: #d62973;
+}
+
+.community
+{
+    border: none;
+    font-size: 16px;
+}
+

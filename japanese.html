@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #e46060;
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
+
+h1 {
+    margin: 0;
+}
+
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+article {
+    background-color: #fff;
+    border: 5px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.add-recipe {
+    background-color: #eee;
+    padding: 2em;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+
+    </style>
+    <title>Japanese</title>
+</head>
+<body>
+
+    <header>
+        <h1>Japanese</h1>
+    </header>
+
+    <section class="recipes">
+        <article>
+            <img src="sushi.webp" alt="butter chicken">
+            <h2>Sushi</h2>
+            <p><a href="sushi.html" style="text-decoration: none;">let's cook</p>
+            <!-- Add the complete recipe details here -->
+        </article>
+
+        <article><img src="udon.webp" alt="chole">
+            <h2>Udon</h2>
+            <p><a href="udon.html" style="text-decoration: none;">let's cook</p>
+            <!-- Add the completItalian
+ItalianItalian
+ItalianItalian
+Italiane recipe details here -->
+        </article>
+
+        
+    </section>
+
+    <section class="add-recipe">
+        <h2>Add Your Own Recipe</h2>
+        <form action="submit_recipe.php" method="post" enctype="multipart/form-data">
+            <label for="recipeName">Recipe Name:</label>
+            <input type="text" id="recipeName" name="recipeName" required>
+
+            <label for="ingredients">Ingredients:</label>
+            <textarea id="ingredients" name="ingredients" rows="4" required></textarea>
+
+            <label for="instructions">Instructions:</label>
+            <textarea id="instructions" name="instructions" rows="4" required></textarea>
+
+            <label for="image">Recipe Image:</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+
+            <button type="submit">Submit Recipe</button>
+        </form>
+    </section>
+
+    
+
+</body>
+</html>
